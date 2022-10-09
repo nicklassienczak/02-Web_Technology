@@ -1,4 +1,6 @@
 // With inspiration from https://youtu.be/sm4QVfhOP6Y
+// and help from platforms like W3Schools, Stackoverflow
+// and of course, the ITA gitbook
 
 const btn = document.getElementById("calcButton");
 
@@ -13,6 +15,7 @@ btn.addEventListener("click", function(){
         return;
     }
 
+    //Since the BMI calculation is made with height in m, the height is converted from cm to m
     height = (height / 100)
 
     let BMI = (weight / (height*height))
