@@ -1,3 +1,5 @@
+@import url('http://fonts.cdnfonts.com/css/sport-game');
+/* font-family: 'SPORT GAME', sans-serif; */
 @import url('http://fonts.cdnfonts.com/css/metropolis-4');
 /* font-family: 'Metropolis', sans-serif; */
 
@@ -24,7 +26,7 @@ body {
     font-family: 'Metropolis', sans-serif;
     left: 50%;
     right: 50%;
-    top: 8%;
+    top: 5%;
     transform: scale(85%);
 
 
@@ -52,10 +54,20 @@ body {
     z-index: -1;
 }
 
-h1 {
-    font-weight: bold;
-    font-size: 30px;
-    padding: 40px;
+#bmiH1 {
+    font-size: 70px;
+    padding-top: 9px;
+    font-family: 'SPORT GAME', sans-serif;
+    font-weight: lighter;
+}
+
+#calcH1 {
+    font-size: 42px;
+    padding-bottom: 15px;
+    font-family: 'SPORT GAME', sans-serif;
+    font-weight: lighter;
+    position: relative;
+    top: -20px;
 }
 
 .content {
