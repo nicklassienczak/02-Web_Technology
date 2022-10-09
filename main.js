@@ -10,6 +10,7 @@ btn.addEventListener("click", function(){
     let weight = document.querySelector("#weight").value;
 //.value is to indicate to the following if-sentence, that we want to use the input value,
 // and not the query/label itself
+
     if (height === "" || weight === "") {
         alert("Please fill in your height and weight.")
         return;
