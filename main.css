@@ -20,13 +20,10 @@ body {
 
 /* class selector */
 .container {
-    position: absolute;
     display: flex;
     justify-content: center;
+    padding-top: 20px;
     font-family: 'Metropolis', sans-serif;
-    left: 50%;
-    right: 50%;
-    top: 5%;
     transform: scale(85%);
 
 
