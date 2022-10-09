@@ -1,3 +1,5 @@
+// With inspiration from https://youtu.be/sm4QVfhOP6Y
+
 const btn = document.getElementById("calcButton");
 
 btn.addEventListener("click", function(){
